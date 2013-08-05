@@ -6,3 +6,4 @@ project-euler
 * Solved #16 via ```sum([int(i) for i in str(2**1000)])```
 * Solved #20 via ```sum((int(i) for i in str(math.factorial(100))))```
 * Solved #25 via educated guessing (it's somewhere in the 4700s for the fibonacchi term seq place)
+* Solved #79 by hand
