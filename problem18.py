@@ -24,3 +24,12 @@ def traverseTriangle(target):
   return largestVals[0]
 
 print(traverseTriangle(TRIANGLE))
+
+"""
+Uncomment this for problem 67
+with open('/tmp/triangle.txt') as f:
+  triangle=[]
+  for line in f:
+    triangle.append([int(i) for i in line.split()])
+  print(traverseTriangle(triangle))
+"""
