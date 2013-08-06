@@ -17,7 +17,7 @@ TRIANGLE=[[75],
 
 def traverseTriangle(target):
   rown = len(target)
-  largestVals = deepcopy(TRIANGLE[-1])
+  largestVals = deepcopy(target[-1])
   for i in range(rown-2, -1, -1):
     for j in range(i+1):
       largestVals[j]=target[i][j]+max(largestVals[j],largestVals[j+1])
